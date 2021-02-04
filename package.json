@@ -1,0 +1,31 @@
+{
+  "name": "simple-http-assignment-start",
+  "version": "1.0.0",
+  "description": "Simple-HTTP Homework for IGME 430",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dg1229/Simple-HTTP-Assignment-Start.git"
+  },
+  "keywords": [
+    "http",
+    "node",
+    "eslint"
+  ],
+  "author": "Dylan Gomer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dg1229/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/dg1229/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
