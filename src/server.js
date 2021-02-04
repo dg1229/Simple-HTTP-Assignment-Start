@@ -1,6 +1,6 @@
 const http = require('http');
 const htmlHandler = require('./htmlResponses.js');
-
+const imageHandler = require('./imageResponses.js');
 const textHandler = require('./textResponses.js');
 const jsonHandler = require('./jsonResponses.js');
 
@@ -27,6 +27,9 @@ const onRequest = (request, response) => {
       break;
     case '/timeJSON':
       jsonHandler.getTimeJSON(request, response);
+      break;
+    case '/dankmemes':
+      imageHandler.getImage(request, response);
       break;
     default:
       htmlHandler.getIndex(request, response);
